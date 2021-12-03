@@ -9,9 +9,11 @@ public class Extend01 {
     System.out.println("Humanクラスのメゾット: 名前は、" + sato.getName());
     System.out.println("Studentクラスのメゾット: プロフィールを紹介します！" + sato.getStudentProfile());
 
+    // アップキャスト
     Human human = new Employee("田中", 28, "システム部");
     System.out.println("Humanクラスのメゾット: 名前は、" + human.getName());
 
+    // ダウンキャスト
     Employee tanaka = (Employee) human;
     System.out.println("Employeeクラスのメゾット: プロフィールを紹介します。" + tanaka.getEmployeeProfile());
 
