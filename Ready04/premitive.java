@@ -21,5 +21,28 @@ public class premitive {
 
     char char1 = 'あ';
     System.out.println(char1);
+
+    String string1 = "こんにちは";
+    System.out.println(string1);
+
+    Integer integer1 = 5;
+    Integer integer2 = Integer.valueOf(5);
+    System.out.println(integer1);
+    System.out.println(integer2);
+
+    int int1 = integer1;
+    int int2 = integer2.intValue();
+    System.out.println(int1);
+    System.out.println(int2);
+
+    int[] array1 = new int[3];
+    array1[0] = 10;
+    array1[1] = 20;
+    array1[2] = 30;
+    int int3 = array1[0];
+    System.out.println(int3);
+
+    int[] array2 = { 40, 50, 60 };
+    System.out.println(array2[1]);
   }
 }
