@@ -20,5 +20,17 @@ public class operand {
     boolean boolean1 = true;
     boolean boolean2 = false;
     boolean boolean3;
+
+    String string1 = "100";
+    String string2 = "200";
+    String string3 = string1 + string2;
+    System.out.println(string3);
+
+    String apple1 = "applePie";
+    String apple2 = "apple";
+    String apple3 = "Pie";
+    String apple_pie = apple2 + apple3;
+    System.out.println(apple1 == apple_pie);
+    System.out.println(apple1.equals(apple_pie));
   }
 }
