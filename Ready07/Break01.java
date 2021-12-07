@@ -1,10 +1,10 @@
 public class Break01 {
   public static void main(String[] args) {
-    for (int count = 0; count < 5; count++) {
-      if (count == 2) {
+    for (int number = 1; number < 5; number++) {
+      if (number == 3) {
         break;
       }
-      System.out.println("Break01 = " + count);
+      System.out.println("number = " + number);
     }
   }
 }

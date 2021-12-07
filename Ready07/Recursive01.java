@@ -8,7 +8,6 @@ public class Recursive01 {
     if (number < 50) {
       number *= 2;
       System.out.println("While01 = " + number);
-      // 条件にマッチしたら自分自身を再度呼び出す
       printNum(number);
     }
     return number;
